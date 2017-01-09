@@ -1,7 +1,5 @@
 var assert = require('chai').assert;
 var Mermaid = require('./mermaid');
-var Sailor = require('./sailor');
-
 
 describe('Mermaid', function () {
 

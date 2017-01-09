@@ -5,7 +5,7 @@ var Sailor = require('./sailor');
 
 describe('Mermaid', function () {
 
-  it('should have a name', function () {
+  it.skip('should have a name', function () {
     var mermaid = new Mermaid({name: 'Louisa'});
     assert.equal(mermaid.name, 'Louisa');
   });

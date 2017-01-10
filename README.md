@@ -16,13 +16,13 @@
 * 1: Developer struggles to implement solutions at the speed of an apprentice.
 * 0: Developer is not able to implement basic functionality.
 
-### JavaScript Style
+### JavaScript Problem Solving
 
 * 4: Developer writes code that is exceptionally clear and well-factored
-* 3: Developer solves problems with a balance between conciseness and clarity and often extracts logical components
-* 2: Developer writes effective code, but does not breakout logical components
-* 1: Developer writes code with unnecessary variables, operations, or steps which do not increase clarity
-* 0: Developer writes code that is difficult to understand
+* 3: Developer solves problems with a balance between conciseness and clarity, and can effectively leverage documentation 
+* 2: Developer requires step by step instruction to write effective code and struggles with researching and applying documentation
+* 1: Developer writes code with unnecessary variables, operations, or steps which do not increase clarity, and lacks an understanding of the problem to solve
+* 0: Developer writes code that is difficult to understand and cannot make basic tests pass
 
 ### Workflow
 

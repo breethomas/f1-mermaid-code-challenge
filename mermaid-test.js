@@ -17,6 +17,7 @@ describe('Mermaid', function () {
     var mermaid = new Mermaid({name: 'Beatrice'});
     mermaid.shout('Persimmon');
     assert.equal(mermaid.name, 'Persimmon')
+    mermaid.shout('Taylor');
     assert.equal(mermaid.name, 'Taylor')
   });
   

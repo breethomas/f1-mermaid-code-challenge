@@ -27,7 +27,6 @@ describe('Sailor', function () {
   it.skip('should only have room for three trinkets in its bucket', function() {
     var sailor = new Sailor('Brutus');
     var mermaid = new Mermaid({name: 'Penelope', trinkets: ['ruby', 'pearl', 'emerald', 'topaz']});
-    assert.deepEqual(mermaid.trinkets, ['ruby', 'pearl', 'emerald', 'topaz'];
     sailor.sing(mermaid);
     sailor.sing(mermaid);
     sailor.sing(mermaid);

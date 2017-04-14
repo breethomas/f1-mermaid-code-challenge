@@ -1,4 +1,4 @@
-# Mermaid
+# Mermaid and Sailor
 
 ## Installation Steps
 

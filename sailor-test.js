@@ -4,17 +4,17 @@ var Mermaid = require('./mermaid');
 
 describe('Sailor', function () {
 
-  it.skip('should have a name', function () {
+  it('should have a name', function () {
     var sailor = new Sailor('Steve');
     assert.equal(sailor.name, 'Steve');
   });
 
-  it.skip('should have an empty bucket by default', function()  {
+  it('should have an empty bucket by default', function()  {
     var sailor = new Sailor('Bree');
     assert.deepEqual(sailor.bucket, []);
   });
 
-  it.skip('should earn the first of a mermaid\'s trinkets when it sings to her', function() {
+  it('should earn the first of a mermaid\'s trinkets when it sings to her', function() {
     var sailor = new Sailor('Steve');
     var mermaid = new Mermaid({name: 'Brenna'});
     assert.equal(mermaid.name, 'Brenna');
@@ -24,7 +24,7 @@ describe('Sailor', function () {
     assert.equal(mermaid.trinkets[0], 'necklace');
   });
 
-  it.skip('should only have room for three trinkets in its bucket', function() {
+  it('should only have room for three trinkets in its bucket', function() {
     var sailor = new Sailor('Brutus');
     var mermaid = new Mermaid({name: 'Penelope', trinkets: ['ruby', 'pearl', 'emerald', 'topaz']});
     sailor.sing(mermaid);
